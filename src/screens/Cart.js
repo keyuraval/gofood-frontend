@@ -19,7 +19,7 @@ export default function Cart() {
     const handleCheckOut = async () => {
         let userEmail = localStorage.getItem("userEmail");
         // console.log(data,localStorage.getItem("userEmail"),new Date())
-        let response = await fetch("/orderData", {
+        let response = await fetch("https://gofood-server-keyuraval.vercel.app/orderData", {
             // credentials: 'include',
             // Origin:"http://localhost:3000/login",
             method: 'POST',
