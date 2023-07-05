@@ -44,7 +44,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="carousel-item active" >
-                            <img src="https://source.unsplash.com/random/900x700/?burger" className="d-block w-100  " style={{ filter: "brightness(30%)" }} alt="..." />
+                            <img src="https://www.foodiesfeed.com/free-food-photo/cappuccino-croissant/" className="d-block w-100  " style={{ filter: "brightness(30%)" }} alt="..." />
                         </div>
                         <div className="carousel-item">
                             <img src="https://source.unsplash.com/random/900x700/?pastry" className="d-block w-100 " style={{ filter: "brightness(30%)" }} alt="..." />
@@ -70,7 +70,7 @@ export default function Home() {
                             return (
                                 // justify-content-center
                                 <div className='row mb-3'>
-                                    <div key={data.id} className='fs-3 m-3'>
+                                    <div key={data._id} className='fs-3 m-3'>
                                         {data.CategoryName}
                                     </div>
                                     <hr id="hr-success" style={{ height: "4px", backgroundImage: "-webkit-linear-gradient(left,rgb(0, 255, 137),rgb(0, 0, 0))" }} />
